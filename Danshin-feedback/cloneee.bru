@@ -1,0 +1,21 @@
+meta {
+  name: cloneee
+  type: http
+  seq: 4
+}
+
+post {
+  url: https://api.kitek-pg.ru/api/feedback/messages
+  body: json
+  auth: none
+}
+
+headers {
+  Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjU3LCJ1c2VybmFtZSI6ImhnamRnZ2QiLCJpYXQiOjE3OTUyMzIwMzUsImV4cCI6MTc5NTMxODQzNX0.iAOx4682DgzsyX-2s1TbcW8Hf81JPoecONB0xCrjh7M
+}
+
+body:json {
+  {
+      "content": "АААААААА"
+  }
+}
