@@ -1,0 +1,21 @@
+meta {
+  name: bidsc
+  type: http
+  seq: 8
+}
+
+get {
+  url: https://api.kitek-pg.ru/api/marketplace/bids/my
+  body: none
+  auth: bearer
+}
+
+auth:bearer {
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjE3OTUyMzY4NDE4NzIsInVzZXJuYW1lIjoiY3J1ZWxsYSIsImlhdCI6MTc5NTIzNjg0MSwiZXhwIjoxNzk1MzIzMjQxfQ.c49dumMhhdHT49xDC7YuwO-m1aW-wyBpiuxrtUxFMlM
+}
+
+body:json {
+  {
+    "amount": 95000
+  }
+}

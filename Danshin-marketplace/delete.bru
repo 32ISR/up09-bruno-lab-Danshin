@@ -1,0 +1,20 @@
+meta {
+  name: delete
+  type: http
+  seq: 6
+}
+
+delete {
+  url: https://api.kitek-pg.ru/api/marketplace/items/1795236552175
+  body: none
+  auth: none
+}
+
+body:json {
+  {
+    "title": "iPhone 12",
+    "description": "Новый iPhone 14 в идеальном состоянии, все аксессуары в комплекте",
+    "price": 40000,
+    "imageUrl": "https://example.com/iphone.jpg"
+  }
+}
